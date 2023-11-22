@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Notes App</h1>
+    <h1>Aplikacja do notatek</h1>
 
     <div>
-        <h2>Add a Note</h2>
+        <h2>Dodaj notatkę</h2>
         <form id="noteForm">
-            <label for="title">Title:</label>
+            <label for="title">Tytuł:</label>
             <input type="text" id="title" required>
             <br>
-            <label for="content">Content:</label>
+            <label for="content">Kontent:</label>
             <textarea id="content" required></textarea>
             <br>
-            <label for="color">Color:</label>
+            <label for="color">Kolor:</label>
             <input type="color" id="color" value="#ffffff">
             <br>
-            <label for="pin">Pin:</label>
+            <label for="pin">Przypięcie:</label> 
             <input type="checkbox" id="pin">
             <br>
             <button type="button" onclick="addNote()">Dodaj notatkę</button>
@@ -29,7 +29,7 @@
     </div>
 
     <div>
-        <h2>Notes</h2>
+        <h2>Zapisane notatki</h2>
         <div id="notesContainer"></div>
     </div>
     <script src="script.js"></script>
