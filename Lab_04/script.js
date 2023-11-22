@@ -74,12 +74,12 @@ function displayNotes() {
     
         // Przycisk edytuj i usuń musi być przy istniejącej notatce!
         const editButton = document.createElement('button');
-        editButton.textContent = 'Edit';
+        editButton.textContent = 'Edytuj';
         editButton.addEventListener('click', () => editNote(index));
         noteElement.appendChild(editButton);
     
         const deleteButton = document.createElement('button');
-        deleteButton.textContent = 'Delete';
+        deleteButton.textContent = 'Usuń';
         deleteButton.addEventListener('click', () => deleteNote(index));
         noteElement.appendChild(deleteButton);
     
